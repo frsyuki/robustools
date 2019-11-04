@@ -10,6 +10,10 @@ Robustools is a set of small libraries that bring more robustness to your JVM-ba
 
 Robustools doesn't have runtime library dependencies.
 
+## Document
+
+API reference is available at [javaodc/index.html](https://github.com/frsyuki/robustools/blob/master/javadoc/index.html).
+
 ## Build configuration
 
 ### Gradle
@@ -59,7 +63,9 @@ Then add following entity to `<dependencies> tag:
 ### Build
 
 ```
-$ ./gradlew --info check build
+$ ./gradlew --info check build javadoc
+$ cp -a build/docs/javadoc ./
+$ git add javadoc
 ```
 
 ### Release
