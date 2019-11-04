@@ -1,0 +1,15 @@
+/.gradle
+/classpath/*.jar
+/shared/config.yml
+build/
+.make/
+pom.xml
+*~
+._*
+.DS_Store
+.project/
+atlassian-ide-plugin.xml
+*.iml
+*.ipr
+*.iws
+*.idea
